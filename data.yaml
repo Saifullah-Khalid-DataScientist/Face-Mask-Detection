@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['mask', 'nomask']
+
+roboflow:
+  workspace: psau-d4ptc
+  project: face-mask-detection-vlrcx
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/psau-d4ptc/face-mask-detection-vlrcx/dataset/4
